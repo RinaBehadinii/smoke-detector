@@ -1,20 +1,20 @@
 #include <WiFiNINA.h>
 #include <MQ2.h>
 #include "Firebase_Arduino_WiFiNINA.h" 
-#define BLYNK_TEMPLATE_ID "TMPL4Ef8StLjz" 
+#define BLYNK_TEMPLATE_ID "" 
 #define BLYNK_TEMPLATE_NAME "Smoke Detector"  
 #include <BlynkSimpleWiFiNINA.h>
 
 // Wi-Fi network credentials
-const char* ssid = "DSG_Lab";
-const char* password = "mvdsi304";
+const char* ssid = "";
+const char* password = "";
 
 // Blynk Auth Token
-char auth[] = "YoJYEwGrjozee25fMZxbigEGthUvM8sW";
+char auth[] = "";
 
 // Firebase Connection
-const char* FIREBASE_HOST = "networks-final-project-1a23f-default-rtdb.firebaseio.com";
-const char* FIREBASE_AUTH = "n2lcxR81vkgJ8CTeuz3Oz1FiQkIWUpgdB2oL8nLS";
+const char* FIREBASE_HOST = "";
+const char* FIREBASE_AUTH = "";
 
 FirebaseData firebaseData;
 String path = "/sensor-reading";
