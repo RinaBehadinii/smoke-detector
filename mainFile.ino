@@ -2,7 +2,7 @@
 #include <MQ2.h>
 #include "Firebase_Arduino_WiFiNINA.h" 
 #define BLYNK_TEMPLATE_ID "" 
-#define BLYNK_TEMPLATE_NAME "Smoke Detector"  
+#define BLYNK_TEMPLATE_NAME ""  
 #include <BlynkSimpleWiFiNINA.h>
 
 // Wi-Fi network credentials
